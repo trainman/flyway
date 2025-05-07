@@ -19,7 +19,7 @@
  */
 package org.flywaydb.verb.migrate.migrators;
 
-import static org.flywaydb.nc.VerbUtils.toMigrationText;
+import static org.flywaydb.nc.utils.VerbUtils.toMigrationText;
 
 import java.nio.file.Paths;
 import java.sql.SQLException;
@@ -51,7 +51,7 @@ import org.flywaydb.core.internal.util.Pair;
 import org.flywaydb.core.internal.util.StopWatch;
 import org.flywaydb.core.internal.util.StringUtils;
 import org.flywaydb.nc.callbacks.CallbackManager;
-import org.flywaydb.nc.ErrorUtils;
+import org.flywaydb.nc.utils.ErrorUtils;
 import org.flywaydb.nc.executors.Executor;
 import org.flywaydb.nc.executors.ExecutorFactory;
 import org.flywaydb.verb.migrate.MigrationExecutionGroup;
